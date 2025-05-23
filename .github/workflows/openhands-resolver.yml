@@ -238,7 +238,7 @@ jobs:
             if (isExperimentalLabel || isIssueCommentExperimental || isReviewCommentExperimental) {
               console.log("Installing experimental OpenHands...");
 
-              await exec.exec("pip install git+https://github.com/kotauchisunsun/openhands.git@split_resolver");
+              await exec.exec("pip install git+https://github.com/all-hands-ai/openhands.git@0.39.1");
             } else {
               console.log("Installing from requirements.txt...");
 
